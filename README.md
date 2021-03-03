@@ -1,6 +1,6 @@
 # COMPARING QUANTITIES
 
-** A PYPY Package that can be used to find Discount,Cost price, Compound Interest annually and half-yearly,
+* A PYPY Package that can be used to find Discount,Cost price, Compound Interest annually and half-yearly,
 Selling price, Profit,Loss,Net price, Bill amount,Value added tax,Simple interest and Total amount.
 
 ## INSTALLATION
@@ -9,8 +9,10 @@ Selling price, Profit,Loss,Net price, Bill amount,Value added tax,Simple interes
 
 ####### cmd pip install Comparing-Quantities
 
-** CONTRIBUTOR 
-       ### * KARTHIK P 
+** CONTRIBUTOR*
 
-** MENTOR 
-       ### * VIDHYA LAKSHMI 
+### * KARTHIK P 
+
+** MENTOR *
+       
+### * VIDHYA LAKSHMI 
