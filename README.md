@@ -11,8 +11,8 @@ cmd pip install Comparing-Quantities
 
 ### CONTRIBUTOR
 
-__ KARTHIK P 
+_KARTHIK P_ 
 
 ### MENTOR 
        
-__ VIDHYA LAKSHMI 
+_VIDHYA LAKSHMI_ 
