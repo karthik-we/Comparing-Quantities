@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/Comparing_Quantities.egg-info/PKG-INFO
+src/Comparing_Quantities.egg-info/SOURCES.txt
+src/Comparing_Quantities.egg-info/dependency_links.txt
+src/Comparing_Quantities.egg-info/top_level.txt

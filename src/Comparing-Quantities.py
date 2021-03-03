@@ -26,8 +26,8 @@ def comp_annually(principal, rate, time_period):
 
 # HALF-YEARLY
 
-def comp_half_yearly(principal, rate, time_pereiod):
-    half = principal * (1 + rate * 200) * time_pereiod
+def comp_half_yearly(principal, rate, time_period):
+    half = principal * (1 + rate * 200) * time_period
     return half
 
 
@@ -64,21 +64,30 @@ def selling_price4(cost_price4, loss):
     return selling_
 
 
-# PROFIT AND ITS PERCENTAGE
+# PROFIT
 
 def profit_value(selling_price5, cost_price5):
     profit = selling_price5 - cost_price5
-    profit_percentage = (profit / cost_price5) * 100
-    return profit and profit_percentage
+    return profit
+
+# PROFIT PERCENTAGE
+
+def profit_percent(selling_prices, cost_prices):
+    profit_percentage = ((selling_prices - cost_prices) / cost_prices) * 100
+    return profit_percentage
 
 
-# LOSS AND ITS PERCENTAGE
+# LOSS
 
-def loss_value(cost_price6, selling_price6, profit):
+def loss_value(cost_price6, selling_price6):
     loss = cost_price6 - selling_price6
-    loss_percentage = (loss / cost_price6 * profit) * 100
-    return loss and loss_percentage
+    return loss
 
+# LOSS PERCENTAGE
+
+def loss_percent(cost_price0, selling_price0, ):
+    loss_percentage = ((cost_price0 - selling_price0) / cost_price0 * (selling_price0-cost_price0)) * 100
+    return loss_percentage
 
 # NET PRICE
 
@@ -86,30 +95,27 @@ def net_price(marked_price, discount):
     net = marked_price - discount
     return net
 
+    # SALES TAX FORMULAS
 
-# SALES TAX FORMULAS
-
-# BILL AMOUNT
+    # BILL AMOUNT
 
 def bill_amount(cost_of_commodity, sales_tax):
     amount = cost_of_commodity + sales_tax
     return amount
 
-
-# VALUE ADDED TAX
+    # VALUE ADDED TAX
 
 def value_added_tax(tax_charged, tax_paid):
     tax = tax_charged + tax_paid
     return tax
 
-
-# ANOTHER FORMULA FOR VALUE ADDED TAX WHEN SELLING AND COST PRICE ARE GIVEN
+    # ANOTHER FORMULA FOR VALUE ADDED TAX WHEN SELLING AND COST PRICE ARE GIVEN
 
 def value_added_tax1(tax, selling_price7, cost_price7):
     tax1 = tax % (selling_price7 - cost_price7)
-    return tax
+    return tax1
 
-# SIMPLE INTEREST AND TOTAL AMOUNT
+    # SIMPLE INTEREST AND TOTAL AMOUNT
 
 def simple_interest(principal, rate_of_interest, time):
     interest = (principal * rate_of_interest * time) / 100
