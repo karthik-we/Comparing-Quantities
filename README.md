@@ -9,10 +9,10 @@ Selling price, Profit,Loss,Net price, Bill amount,Value added tax,Simple interes
 
 cmd pip install Comparing-Quantities
 
-###CONTRIBUTOR
+### CONTRIBUTOR
 
-_KARTHIK P 
+__ KARTHIK P 
 
-###MENTOR 
+### MENTOR 
        
-_VIDHYA LAKSHMI 
+__ VIDHYA LAKSHMI 
