@@ -5,9 +5,9 @@ with open('README.md', 'r') as file:
 
 setup(
     name='Comparing-Quantities',
-    version='1.1',
+    version='1.2',
     description='Comparing Quantities Formulae',
-    long_description='A Module used to find Discount,Cost price, Compound Interest annually and half-yearly,Selling price,Profit,Loss,Net price, Bill amount,Value added tax,Simple interest and Total amount.',
+    long_description=long_description,
     long_description_content_type='text/markdown',
     py_modules=['validate_mail'],
     package_dir={'': 'src'},

@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: Comparing-Quantities
 Version: 1.1
-Summary: Comparing Quantities Formulas
-Home-page: UNKNOWN
+Summary: Comparing Quantities Formulae
+Home-page: https://github.com/karthik-we/Comparing-Quantities
 Author: Karthik P
 Author-email: karthickpremoth@gmail.com
 License: UNKNOWN
-Description: UNKNOWN
+Description: A Module used to find Discount,Cost price, Compound Interest annually and half-yearly,Selling price,Profit,Loss,Net price, Bill amount,Value added tax,Simple interest and Total amount.
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3.5
 Classifier: Programming Language :: Python :: 3.6
